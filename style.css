@@ -1,0 +1,16 @@
+/* Styles go here */
+
+  .deck {
+    background: #FAFFB2;
+    margin: 1em;
+    display: flex;
+  }
+
+  .card {
+    background: #96FFE2;
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+    flex: 0 0 100px;
+  }
+

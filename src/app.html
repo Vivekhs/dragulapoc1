@@ -1,0 +1,34 @@
+
+
+source:
+
+<div class="deck1" [dragula]='"bag"' [dragulaModel]='source'>
+  <div class="card" *ngFor="let item of source" >
+    {{item}}
+  </div>
+</div>
+
+
+target:
+
+<div class="deck" [dragula]='"bag"' [dragulaModel]='target'>
+  <div class="card test" *ngFor="let item of target">
+    {{item}}
+  </div>
+</div>
+
+<hr>
+
+Checks:
+
+<ul>
+  <li *ngFor="let item of source" >
+    {{item}}
+  </li>
+</ul>
+
+<ul>
+  <li *ngFor="let item of target" >
+    {{item}}
+  </li>
+</ul>
